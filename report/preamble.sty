@@ -79,7 +79,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{csquotes}
 \usepackage[backend=biber,sorting=none,style=numeric-comp,bibstyle=chem-acs,articletitle=true,biblabel=brackets,doi=false]{biblatex}
-\bibliography{referencias}
+\addbibresource{references.bib}
 \newbibmacro{string+doi}[1]{%
 \iffieldundef{url}{%
 \iffieldundef{doi}{#1}{\href{https://doi.org/\thefield{doi}}{#1}}}

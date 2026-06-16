@@ -30,3 +30,10 @@ Thumbs.db
 
 # vs-code file
 .vscode/
+
+
+#mace pre-trained models folders are ignored
+mace-mp-0b3-medium/
+mace-mpa-0-medium/
+mace-mp-0b3-medium.model
+mace-mpa-0-medium.model
